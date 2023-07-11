@@ -1,0 +1,7 @@
+usage: readbook <command> [<args>]  
+
+Commands:  
+
+    add     Add new book
+    read    Read next page, or page you put as argument
+    rn      Shorthand for "read" command
