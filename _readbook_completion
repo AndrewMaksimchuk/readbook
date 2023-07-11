@@ -1,0 +1,13 @@
+# Add competion for shell(bash)
+
+
+function _readbook() {
+    COMPREPLY=(
+        "add" 
+        "read" 
+        "rn" 
+    )
+}
+
+
+complete -F _readbook readbook

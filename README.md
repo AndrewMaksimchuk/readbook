@@ -7,6 +7,16 @@ CLI application for read only one book
 automatically  
 
 
+### First start
+
+Run `sudo ./install.bash` from project directory  
+`sudo` need for add to shell complition directory  
+This add path to this directory to app entry  
+point in `PATH` variable to `.bashrc` or `.zshrc`  
+After that add shell complition(bash and zsh)  
+and make all `.bash` file to be executable  
+
+
 ### Usage
 
 See [usage](usage)  

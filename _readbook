@@ -1,0 +1,11 @@
+#compdef readbook
+# Add competion for shell(zsh)
+
+
+local -a subcmds
+subcmds=(
+    'add:add new book' 
+    'read:read next page, or page you put as argument' 
+    'rn:shorthand for read command' 
+)
+_describe 'command' subcmds
