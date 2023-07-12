@@ -42,6 +42,7 @@ function get_page
         -f "$new_page" \
         -l "$new_page" \
         "$book" "$save"
+    echo "You read $new_page page"
 }
 
 
