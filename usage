@@ -5,3 +5,5 @@ Commands:
     add     Add new book
     read    Read next page, or page you put as argument
     rn      Shorthand for "read" command
+    current Read current page
+    rc      Shorthand for "current" command

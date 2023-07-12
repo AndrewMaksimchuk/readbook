@@ -6,6 +6,8 @@ function _readbook() {
         "add" 
         "read" 
         "rn" 
+        "current" 
+        "rc" 
     )
 }
 

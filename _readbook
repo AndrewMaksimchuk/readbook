@@ -7,5 +7,7 @@ subcmds=(
     'add:add new book' 
     'read:read next page, or page you put as argument' 
     'rn:shorthand for read command' 
+    'current:read current page' 
+    'rc:shorthand for "current" command' 
 )
 _describe 'command' subcmds

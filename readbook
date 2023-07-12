@@ -28,6 +28,14 @@ case $1 in
         "$projectdir/read.bash" $2
     ;;
 
+    "current") # read current page
+        "$projectdir/current.bash"
+    ;;
+
+    "rc") # read current page - shorthand for "current"
+        "$projectdir/current.bash"
+    ;;
+
     *) 
         echo "That command not exist"
         usage
