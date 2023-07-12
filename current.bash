@@ -4,6 +4,9 @@
 projectdir=$(dirname $0)
 
 
+. $projectdir/history.bash
+
+
 save=$(echo "$projectdir/book/current_page.png")
 
 
@@ -13,4 +16,5 @@ if [[ ! -e $save ]]; then
 fi
 
 
+history_change_last_page
 xdg-open "$save"

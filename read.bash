@@ -10,6 +10,7 @@ projectdir=$(dirname $0)
 
 
 . $projectdir/config.bash
+. $projectdir/history.bash
 
 
 book=$(config_get 'book')
@@ -53,4 +54,5 @@ else
 fi
 
 
+history_change_last_page
 xdg-open "$save.png"
