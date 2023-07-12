@@ -14,6 +14,9 @@ if [[ -z $1 ]]; then
 fi
 
 
+cat "$projectdir/config_default" > "$projectdir/config"
+
+
 config_put "book" $1
 
 
