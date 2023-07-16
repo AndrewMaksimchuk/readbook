@@ -40,6 +40,10 @@ case $1 in
         "$projectdir/book.bash"
     ;;
 
+    "open") 
+        "$projectdir/open.bash"
+    ;;
+
     *) 
         echo "That command not exist"
         usage

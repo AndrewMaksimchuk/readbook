@@ -8,3 +8,4 @@ Commands:
     current Read current page
     rc      Shorthand for "current" command
     book    About book
+    open    Open book in default application
