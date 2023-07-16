@@ -9,5 +9,6 @@ subcmds=(
     'rn:shorthand for read command' 
     'current:read current page' 
     'rc:shorthand for "current" command' 
+    'book:about book' 
 )
 _describe 'command' subcmds

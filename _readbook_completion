@@ -8,6 +8,7 @@ function _readbook() {
         "rn" 
         "current" 
         "rc" 
+        "book"
     )
 }
 
